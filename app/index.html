@@ -35,6 +35,16 @@
       background-color: #f5f5f5;
     }
 
+    .logo{
+      max-height: 100%;
+      display: inline-block !important;
+    }
+
+    .navbar-brand{
+      padding: 10px;
+      vertical-align: middle;
+      line-height: 60px;
+    }
 
     </style>
 
@@ -51,7 +61,9 @@
 				        <span class="icon-bar"></span>
 				        <span class="icon-bar"></span>
 				      </button>
-				      <a class="navbar-brand" href="javascript:void(0)">Comic Cards</a>
+				      <a class="navbar-brand" href="javascript:void(0)">
+				        <img src="assets/images/angular.png" class="img-responsive logo" alt="" /> Angular 2
+				      </a>
 				    </div>
 				    <div class="navbar-collapse collapse navbar-responsive-collapse">
 				      <ul class="nav navbar-nav">
@@ -75,11 +87,77 @@
       </div>
     </div>
 
+
+    <!-- Create user -->
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2">
+          <div class="well">
+            <form class="form-horizontal">
+              <fieldset>
+                <legend>Create game profile</legend>
+                <div class="form-group">
+                  <label for="userName" class="col-md-2 control-label">User Name</label>
+
+                  <div class="col-md-10">
+                    <input type="text" class="form-control" id="userName" placeholder="Enter user name">
+                  </div>
+                </div>
+                <button class="btn btn-primary">Play</button>
+              </fieldset>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Create user -->
+
     <div class="container">
       <footer>
         <p>Made with love by Javascript Guatemala Meetup.</p>
       </footer>
     </div> <!-- /container -->
+
+
+  <!-- Cards Page -->
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-3">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <img src="http://localhost:3000/assets/images/97_Boom_Boom.jpg" class="img-responsive" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-3">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <img src="http://localhost:3000/assets/images/87_Venom.jpg" class="img-responsive" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-3">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <img src="http://localhost:3000/assets/images/75_Magneto_Regresa.jpg" class="img-responsive" alt="">
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-3">
+        <div class="panel panel-default">
+          <div class="panel-body">
+            <img src="http://localhost:3000/assets/images/42_Jubilo.jpg" class="img-responsive" alt="">
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  <!-- Cards Page -->
 
 
     <footer class="footer-game">
