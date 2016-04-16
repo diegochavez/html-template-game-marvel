@@ -1,241 +1,225 @@
-
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <meta name="description" content="">
-    <meta name="author" content="">
 
-    <title>Template Meetup Javascript Guatemala - Framework</title>
+<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+		<meta name="description" content="">
+		<meta name="author" content="">
 
-    <!-- Bootstrap core CSS -->
+		<title>Template Meetup Javascript Guatemala - Framework</title>
+
+		<!-- Bootstrap core CSS -->
 		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" media="screen" title="no title" charset="utf-8">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.3.0/css/roboto.min.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.3.0/css/material-fullpalette.min.css">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.3.0/css/ripples.min.css">
-    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/icon?family=Material+Icons">
+		<link rel="stylesheet" href="assets/css/main.css">
 
-    <style>
-    html {
-      position: relative;
-      min-height: 100%;
-    }
-    body {
-      /* Margin bottom by footer height */
-      margin: 80px 0 200px;
-    }
-    .footer-game {
-      padding: 10px 0;
-      position: fixed;
-      bottom: 0;
-      width: 100%;
-      /* Set the fixed height of the footer here */
-      height: 150px;
-      background-color: #eee;
-      -webkit-box-shadow: 0px -5px 30px 0px rgba(50, 50, 50, 0.54);
-      -moz-box-shadow:    0px -5px 30px 0px rgba(50, 50, 50, 0.54);
-      box-shadow:         0px -5px 30px 0px rgba(50, 50, 50, 0.54);
-    }
+</head>
 
-    .footer-game .card-preview{
-        background-color: #FFF;
-        padding: 10px;
-    }
+<body>
 
-    .footer-game .score{
-      font-size: 18px;
-      min-height: 120px;
-      display: inline-block;
-      width: 100%;
-      text-align: center;
-      padding: 20px;
-    }
-
-    .footer-game .score-number{
-      font-size: 40px;
-      display: block;
-      font-weight: bold;
-    }
-
-    .logo{
-      max-height: 100%;
-      display: inline-block !important;
-    }
-
-    .navbar-brand{
-      padding: 10px;
-      vertical-align: middle;
-      line-height: 60px;
-    }
-
-    .nav .material-icons{
-      font-size: 16px;
-    }
-
-    </style>
-
-  </head>
-
-  <body>
-
+		<!-- header -->
 		<div class="navbar navbar-inverse navbar-fixed-top">
-			<div class="container">
+				<div class="container">
 
-				    <div class="navbar-header">
-				      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
-				        <span class="icon-bar"></span>
-				        <span class="icon-bar"></span>
-				        <span class="icon-bar"></span>
-				      </button>
-				      <a class="navbar-brand" href="javascript:void(0)">
-				        <img src="assets/images/angular.png" class="img-responsive logo" alt="" /> Angular 2
-				      </a>
-				    </div>
-				    <div class="navbar-collapse collapse navbar-responsive-collapse">
-				      <ul class="nav navbar-nav">
-				        <li class="active"><a href="javascript:void(0)">Home</a></li>
-				        <li><a href="javascript:void(0)">Cards</a></li>
-				      </ul>
+						<div class="navbar-header">
+								<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-responsive-collapse">
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+										<span class="icon-bar"></span>
+								</button>
+								<a class="navbar-brand" href="javascript:void(0)">
+										<img src="assets/images/angular.png" class="img-responsive logo" alt="" /> Angular 2
+								</a>
+						</div>
+						<div class="navbar-collapse collapse navbar-responsive-collapse">
+								<ul class="nav navbar-nav">
+										<li class="active"><a href="javascript:void(0)">Home</a></li>
+										<li><a href="javascript:void(0)">Cards</a></li>
+								</ul>
 
-				      <ul class="nav navbar-nav navbar-right">
-				        <li class="loging"><a href="javascript:void(0)">Login</a></li>
-                <li class="loggedIn"><a href="#">Welcome: Daniels</a></li>
-				      </ul>
-				    </div>
-			</div>
+								<ul class="nav navbar-nav navbar-right">
+										<li class="loging"><a href="javascript:void(0)">Login</a></li>
+										<li class="loggedIn"><a href="#">Welcome: Daniels</a></li>
+								</ul>
+						</div>
+				</div>
 		</div>
+		<!-- end header -->
 
-    <!-- Main jumbotron for a primary marketing message or call to action -->
-    <div class="jumbotron">
-      <div class="container">
-        <h1>Welcome to the game of cards!</h1>
-        <p>We built this game using three different frameworks AngularJs 1.5, Angular 2, EmberJs, ReactJs</p>
-        <p><a class="btn btn-primary btn-lg" href="#" role="button">Let's Play</a></p>
+		<!-- Main jumbotron for a primary marketing message or call to action -->
+		<div class="jumbotron">
+				<div class="container">
+						<h1>Welcome to the game of cards!</h1>
+						<p>We built this game using three different frameworks AngularJs 1.5, Angular 2, EmberJs, ReactJs</p>
+						<p><a class="btn btn-primary btn-lg" href="#" role="button">Let's Play</a></p>
+				</div>
+		</div>
+		<!-- end jumbotron -->
+
+		<!-- Create user -->
+		<div class="container">
+				<div class="row">
+						<div class="col-md-8 col-md-offset-2">
+								<div class="well">
+										<form class="form-horizontal">
+												<fieldset>
+														<legend>Create game profile</legend>
+														<div class="form-group">
+																<label for="userName" class="col-md-2 control-label">User Name</label>
+
+																<div class="col-md-10">
+																		<input type="text" class="form-control" id="userName" placeholder="Enter user name">
+																</div>
+														</div>
+														<button class="btn btn-primary">Save & play</button>
+												</fieldset>
+										</form>
+								</div>
+						</div>
+				</div>
+		</div>
+		<!-- Create user -->
+
+		<div class="container">
+				<footer>
+						<p>JavaScript Guatemala Meetup API - @name</p>
+				</footer>
+		</div>
+		<!-- /container -->
+
+
+		<!-- Cards List Page -->
+		<div class="container">
+				<div class="row">
+						<div class="col-sm-3">
+								<div class="panel panel-default">
+										<div class="panel-body">
+												<img src="http://localhost:3000/assets/images/97_Boom_Boom.jpg" class="img-responsive" alt="">
+										</div>
+								</div>
+						</div>
+
+						<div class="col-sm-3">
+								<div class="panel panel-default">
+										<div class="panel-body">
+												<img src="http://localhost:3000/assets/images/87_Venom.jpg" class="img-responsive" alt="">
+										</div>
+								</div>
+						</div>
+
+						<div class="col-sm-3">
+								<div class="panel panel-default">
+										<div class="panel-body">
+												<img src="http://localhost:3000/assets/images/75_Magneto_Regresa.jpg" class="img-responsive" alt="">
+										</div>
+								</div>
+						</div>
+
+						<div class="col-sm-3">
+								<div class="panel panel-default">
+										<div class="panel-body">
+												<img src="http://localhost:3000/assets/images/42_Jubilo.jpg" class="img-responsive" alt="">
+										</div>
+								</div>
+						</div>
+
+				</div>
+
+		</div>
+		<!-- Cards List Page -->
+
+<!-- Game Arena -->
+<div class="container text-center">
+  <h2>Game Arena</h2>
+  <div class="row">
+    <div class="col-sm-3 col-sm-offset-2 col-xs-5">
+      <div class="panel panel-success">
+        <div class="panel-heading">
+   <h3 class="panel-title">User name</h3>
+ </div>
+          <div class="panel-body">
+              <img src="http://localhost:3000/assets/images/42_Jubilo.jpg" class="img-responsive" alt="">
+          </div>
       </div>
     </div>
-
-
-    <!-- Create user -->
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-          <div class="well">
-            <form class="form-horizontal">
-              <fieldset>
-                <legend>Create game profile</legend>
-                <div class="form-group">
-                  <label for="userName" class="col-md-2 control-label">User Name</label>
-
-                  <div class="col-md-10">
-                    <input type="text" class="form-control" id="userName" placeholder="Enter user name">
-                  </div>
-                </div>
-                <button class="btn btn-primary">Save & play</button>
-              </fieldset>
-            </form>
-          </div>
-        </div>
-      </div>
+    <div class="col-sm-2 col-xs-2">
+      <h2>VS</h2>
     </div>
-    <!-- Create user -->
-
-    <div class="container">
-      <footer>
-        <p>JavaScript Guatemala Meetup API - @name</p>
-      </footer>
-    </div> <!-- /container -->
-
-
-  <!-- Cards Page -->
-  <div class="container">
-    <div class="row">
-      <div class="col-sm-3">
-        <div class="panel panel-default">
+    <div class="col-sm-3 col-xs-5">
+      <div class="panel panel-danger">
+        <div class="panel-heading">
+   <h3 class="panel-title">Mr. Roboto</h3>
+ </div>
           <div class="panel-body">
-            <img src="http://localhost:3000/assets/images/97_Boom_Boom.jpg" class="img-responsive" alt="">
+              <img src="http://localhost:3000/assets/images/42_Jubilo.jpg" class="img-responsive" alt="">
           </div>
-        </div>
       </div>
-
-      <div class="col-sm-3">
-        <div class="panel panel-default">
-          <div class="panel-body">
-            <img src="http://localhost:3000/assets/images/87_Venom.jpg" class="img-responsive" alt="">
-          </div>
-        </div>
-      </div>
-
-      <div class="col-sm-3">
-        <div class="panel panel-default">
-          <div class="panel-body">
-            <img src="http://localhost:3000/assets/images/75_Magneto_Regresa.jpg" class="img-responsive" alt="">
-          </div>
-        </div>
-      </div>
-
-      <div class="col-sm-3">
-        <div class="panel panel-default">
-          <div class="panel-body">
-            <img src="http://localhost:3000/assets/images/42_Jubilo.jpg" class="img-responsive" alt="">
-          </div>
-        </div>
-      </div>
-
-    </div>
-
-  </div>
-  <!-- Cards Page -->
-
-
-    <footer class="footer-game">
-      <div class="container">
-<div class="row">
-  <div class="col-sm-2">
-    <h4>My game cards</h4>
-    <small>Random deck generated on each game</small>
-  </div>
-  <div class="col-sm-5">
-    <div class="row">
-      <div class="col-xs-4">
-        <div class="card-preview">
-          <img src="http://localhost:3000/assets/images/42_Jubilo-150x150.jpg" class="img-responsive" alt="">
-        </div>
-      </div>
-      <div class="col-xs-4">
-        <div class="card-preview">
-          <img src="http://localhost:3000/assets/images/42_Jubilo-150x150.jpg" class="img-responsive" alt="">
-        </div>
-      </div>
-      <div class="col-xs-4">
-        <div class="card-preview">
-          <img src="http://localhost:3000/assets/images/42_Jubilo-150x150.jpg" class="img-responsive" alt="">
-        </div>
-      </div>
-
-    </div>
-  </div>
-  <div class="col-sm-5">
-    <div class="row">
-      <div class="col-sm-4"><span class="score text-success">Wins: <span class="score-number">20</span></span></div>
-      <div class="col-sm-4"><span class="score text-defaul">Losses: <span class="score-number">20</span></span></div>
-      <div class="col-sm-4"><span class="score text-info">Games: <span class="score-number">20</span></span></div>
     </div>
   </div>
 </div>
-      </div>
-    </footer>
+<!-- Game Arena -->
+
+		<!-- Footer Loggedin user -->
+		<footer class="footer-game">
+				<div class="container">
+						<div class="row">
+								<div class="col-sm-2">
+										<h4>My game cards</h4>
+										<small>Random deck generated on each game</small>
+								</div>
+								<div class="col-sm-5">
+										<div class="row">
+												<div class="col-xs-4">
+														<div class="card-preview">
+																<img src="http://localhost:3000/assets/images/42_Jubilo-150x150.jpg" class="img-responsive" alt="">
+														</div>
+												</div>
+												<div class="col-xs-4">
+														<div class="card-preview">
+																<img src="http://localhost:3000/assets/images/42_Jubilo-150x150.jpg" class="img-responsive" alt="">
+														</div>
+												</div>
+												<div class="col-xs-4">
+														<div class="card-preview">
+																<img src="http://localhost:3000/assets/images/42_Jubilo-150x150.jpg" class="img-responsive" alt="">
+														</div>
+												</div>
+
+										</div>
+								</div>
+								<div class="col-sm-5">
+										<div class="row">
+												<div class="col-xs-4"><span class="score text-success">Wins: <span class="score-number">20</span></span>
+												</div>
+												<div class="col-xs-4"><span class="score text-defaul">Losses: <span class="score-number">20</span></span>
+												</div>
+												<div class="col-xs-4"><span class="score text-info">Games: <span class="score-number">20</span></span>
+												</div>
+										</div>
+								</div>
+						</div>
+				</div>
+		</footer>
+		<!-- footer loggedIn user -->
 
 
-    <!-- Bootstrap core JavaScript
-    ================================================== -->
-    <!-- Placed at the end of the document so the pages load faster -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')</script>
+		<!-- Bootstrap core JavaScript
+		================================================== -->
+		<!-- Placed at the end of the document so the pages load faster -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script>
+				window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
+		</script>
 		<script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.3.0/js/material.min.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-material-design/0.3.0/js/ripples.min.js"></script>
-  </body>
+		<!-- Bootstrap core JavaScript end -->
+</body>
+
 </html>
